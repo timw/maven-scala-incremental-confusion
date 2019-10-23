@@ -1,0 +1,1018 @@
+Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-05T08:00:29+13:00)
+Maven home: /Users/timw/.sdkman/candidates/maven/current
+Java version: 1.8.0_222, vendor: AdoptOpenJDK, runtime: /Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre
+Default locale: en_AU, platform encoding: UTF-8
+OS name: "mac os x", version: "10.14.5", arch: "x86_64", family: "mac"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /Users/timw/.sdkman/candidates/maven/current/conf/settings.xml
+[DEBUG] Reading user settings from /Users/timw/.m2/settings.xml
+[DEBUG] Reading global toolchains from /Users/timw/.sdkman/candidates/maven/current/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/timw/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/timw/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/timw/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project incremental:incremental-parent:pom:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project incremental:incremental-module1:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project incremental:incremental-module2:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for incremental:incremental-module1:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ incremental:incremental-parent:1.0-SNAPSHOT, /Users/timw/projects/indexity.io/empi/i2/pom.xml, line 40, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for incremental:incremental-module2:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ incremental:incremental-parent:1.0-SNAPSHOT, /Users/timw/projects/indexity.io/empi/i2/pom.xml, line 40, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for incremental:incremental-parent:pom:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 40, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Incremental :: Parent                                              [pom]
+[INFO] Incremental :: Module1                                             [jar]
+[INFO] Incremental :: Module2                                             [jar]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: incremental:incremental-parent:pom:1.0-SNAPSHOT
+[DEBUG] Tasks:   [compile]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: incremental:incremental-module1:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [compile]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: incremental:incremental-module2:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [compile]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] -------------------< incremental:incremental-parent >-------------------
+[INFO] Building Incremental :: Parent 1.0-SNAPSHOT                        [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml in local (/Users/timw/.m2/repository)
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-compiler-plugin to 3.8.1 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       incremental:incremental-parent:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [gitlab-maven (https://gitlab.com/api/v4/groups/indexity/-/packages/maven, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          net.alchim31.maven:scala-maven-plugin:4.2.4:compile (scala-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addJavacArgs>${addJavacArgs}</addJavacArgs>
+  <addScalacArgs>${addScalacArgs}</addScalacArgs>
+  <analysisCacheFile default-value="${project.build.directory}/analysis/compile">${analysisCacheFile}</analysisCacheFile>
+  <checkMultipleScalaVersions default-value="true">${maven.scala.checkConsistency}</checkMultipleScalaVersions>
+  <classpath>${classpath}</classpath>
+  <compileOrder default-value="Mixed">${compileOrder}</compileOrder>
+  <displayCmd default-value="false">${displayCmd}</displayCmd>
+  <encoding default-value="UTF-8">${project.build.sourceEncoding}</encoding>
+  <failOnMultipleScalaVersions default-value="false"/>
+  <forceUseArgFile default-value="false"/>
+  <fork default-value="true"/>
+  <javacArgs>${javacArgs}</javacArgs>
+  <javacGenerateDebugSymbols default-value="true">${javacGenerateDebugSymbols}</javacGenerateDebugSymbols>
+  <localRepo>${localRepository}</localRepo>
+  <localRepository>${localRepository}</localRepository>
+  <notifyCompilation default-value="true">${notifyCompilation}</notifyCompilation>
+  <outputDir>${project.build.outputDirectory}</outputDir>
+  <pluginArtifacts default-value="${plugin.artifacts}"/>
+  <project>${project}</project>
+  <recompileMode default-value="incremental">incremental</recompileMode>
+  <remoteRepos>${project.remoteArtifactRepositories}</remoteRepos>
+  <scalaClassName default-value="scala.tools.nsc.Main">${maven.scala.className}</scalaClassName>
+  <scalaCompatVersion>${scala.compat.version}</scalaCompatVersion>
+  <scalaHome>${scala.home}</scalaHome>
+  <scalaOrganization default-value="org.scala-lang">${scala.organization}</scalaOrganization>
+  <scalaVersion>${scala.version}</scalaVersion>
+  <secondaryCacheDir>${secondaryCacheDir}</secondaryCacheDir>
+  <sendJavaToScalac default-value="true"/>
+  <session>${session}</session>
+  <source>${maven.compiler.source}</source>
+  <sourceDir default-value="${project.build.sourceDirectory}/../scala"/>
+  <target>${maven.compiler.target}</target>
+  <useCanonicalPath default-value="true">${maven.scala.useCanonicalPath}</useCanonicalPath>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=39628, ConflictMarker.markTime=305188, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=27246, ConflictIdSorter.topsortTime=414181, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1021759, ConflictResolver.conflictItemCount=0, DefaultDependencyCollector.collectTime=180672, DefaultDependencyCollector.transformTime=3307697}
+[DEBUG] incremental:incremental-parent:pom:1.0-SNAPSHOT
+[INFO] 
+[INFO] --- scala-maven-plugin:4.2.4:compile (scala-compile) @ incremental-parent ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2278229, ConflictMarker.markTime=740002, ConflictMarker.nodeCount=320, ConflictIdSorter.graphTime=816796, ConflictIdSorter.topsortTime=146204, ConflictIdSorter.conflictIdCount=102, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=9639029, ConflictResolver.conflictItemCount=241, DefaultDependencyCollector.collectTime=425880622, DefaultDependencyCollector.transformTime=13720508}
+[DEBUG] net.alchim31.maven:scala-maven-plugin:jar:4.2.4:
+[DEBUG]    org.apache.maven:maven-compat:jar:3.3.9:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.3.9:compile
+[DEBUG]          org.apache.maven:maven-builder-support:jar:3.3.9:compile
+[DEBUG]          com.google.guava:guava:jar:18.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.3.9:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.3.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.21:compile
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.2:compile
+[DEBUG]          javax.enterprise:cdi-api:jar:1.0:compile
+[DEBUG]             javax.annotation:jsr250-api:jar:1.0:compile
+[DEBUG]          org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.2:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile
+[DEBUG]       org.apache.maven.wagon:wagon-provider-api:jar:2.10:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.3.9:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.3.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.3.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-api:jar:3.3.9:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.3.9:compile
+[DEBUG]          org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile
+[DEBUG]       org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:compile
+[DEBUG]       org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile
+[DEBUG]       com.google.inject:guice:jar:no_aop:4.0:compile
+[DEBUG]          javax.inject:javax.inject:jar:1:compile
+[DEBUG]          aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.4:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-tree:jar:3.0.1:compile
+[DEBUG]    org.apache.commons:commons-exec:jar:1.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:4.1.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:3.1.1:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.18:compile
+[DEBUG]       org.iq80.snappy:snappy:jar:0.4:compile
+[DEBUG]       org.tukaani:xz:jar:1.8:runtime
+[DEBUG]    org.codehaus.plexus:plexus-classworlds:jar:2.6.0:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:3.4.0:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.apache.maven.doxia:doxia-sink-api:jar:1.9:compile
+[DEBUG]       org.apache.maven.doxia:doxia-logging-api:jar:1.9:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.3.9:compile
+[DEBUG]    org.apache.maven.shared:maven-invoker:jar:3.0.1:compile
+[DEBUG]    org.scala-sbt:zinc_2.12:jar:1.3.1:compile
+[DEBUG]       org.scala-lang:scala-library:jar:2.12.8:compile
+[DEBUG]       org.scala-sbt:zinc-core_2.12:jar:1.3.1:compile
+[DEBUG]          org.scala-sbt:zinc-apiinfo_2.12:jar:1.3.1:compile
+[DEBUG]             org.scala-sbt:compiler-bridge_2.12:jar:1.3.1:compile
+[DEBUG]          org.scala-sbt:zinc-classpath_2.12:jar:1.3.1:compile
+[DEBUG]             org.scala-lang:scala-compiler:jar:2.12.8:compile
+[DEBUG]          org.scala-sbt:compiler-interface:jar:1.3.1:compile
+[DEBUG]             org.scala-sbt:util-interface:jar:1.3.0:compile
+[DEBUG]          com.trueaccord.scalapb:scalapb-runtime_2.12:jar:0.6.0:compile
+[DEBUG]             com.trueaccord.lenses:lenses_2.12:jar:0.4.12:compile
+[DEBUG]             com.lihaoyi:fastparse_2.12:jar:0.4.2:compile
+[DEBUG]                com.lihaoyi:fastparse-utils_2.12:jar:0.4.2:compile
+[DEBUG]                com.lihaoyi:sourcecode_2.12:jar:0.1.3:compile
+[DEBUG]          org.scala-sbt:io_2.12:jar:1.3.0:compile
+[DEBUG]             com.swoval:file-tree-views:jar:2.1.3:compile
+[DEBUG]             net.java.dev.jna:jna:jar:4.5.0:compile
+[DEBUG]             net.java.dev.jna:jna-platform:jar:4.5.0:compile
+[DEBUG]          org.scala-sbt:util-logging_2.12:jar:1.3.0:compile
+[DEBUG]             com.eed3si9n:sjson-new-core_2.12:jar:0.8.3:compile
+[DEBUG]             jline:jline:jar:2.14.6:compile
+[DEBUG]             org.apache.logging.log4j:log4j-api:jar:2.11.2:compile
+[DEBUG]             org.apache.logging.log4j:log4j-core:jar:2.11.2:compile
+[DEBUG]             com.lmax:disruptor:jar:3.4.2:compile
+[DEBUG]             com.eed3si9n:sjson-new-scalajson_2.12:jar:0.8.3:compile
+[DEBUG]                com.eed3si9n:shaded-scalajson_2.12:jar:1.0.0-M4:compile
+[DEBUG]                org.spire-math:jawn-parser_2.12:jar:0.10.4:compile
+[DEBUG]             org.scala-lang:scala-reflect:jar:2.12.8:compile
+[DEBUG]          org.scala-sbt:util-relation_2.12:jar:1.3.0:compile
+[DEBUG]       org.scala-sbt:zinc-persist_2.12:jar:1.3.1:compile
+[DEBUG]          org.scala-sbt:sbinary_2.12:jar:0.5.0:compile
+[DEBUG]             org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile
+[DEBUG]       org.scala-sbt:zinc-compile-core_2.12:jar:1.3.1:compile
+[DEBUG]          org.scala-sbt:launcher-interface:jar:1.0.0:compile
+[DEBUG]          org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.1.2:compile
+[DEBUG]          org.scala-sbt:util-control_2.12:jar:1.3.0:compile
+[DEBUG]       org.scala-sbt:zinc-classfile_2.12:jar:1.3.1:compile
+[DEBUG]       com.google.protobuf:protobuf-java:jar:3.7.0:compile
+[DEBUG]    org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile
+[DEBUG] Created new class realm plugin>net.alchim31.maven:scala-maven-plugin:4.2.4
+[DEBUG] Importing foreign packages into class realm plugin>net.alchim31.maven:scala-maven-plugin:4.2.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>net.alchim31.maven:scala-maven-plugin:4.2.4
+[DEBUG]   Included: net.alchim31.maven:scala-maven-plugin:jar:4.2.4
+[DEBUG]   Included: org.apache.maven:maven-builder-support:jar:3.3.9
+[DEBUG]   Included: com.google.guava:guava:jar:18.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.21
+[DEBUG]   Included: javax.enterprise:cdi-api:jar:1.0
+[DEBUG]   Included: org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:1.0.2.v20150114
+[DEBUG]   Included: com.google.inject:guice:jar:no_aop:4.0
+[DEBUG]   Included: aopalliance:aopalliance:jar:1.0
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.4
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:3.0.1
+[DEBUG]   Included: org.apache.commons:commons-exec:jar:1.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.3.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:4.1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:3.1.1
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.18
+[DEBUG]   Included: org.iq80.snappy:snappy:jar:0.4
+[DEBUG]   Included: org.tukaani:xz:jar:1.8
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:3.4.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.9
+[DEBUG]   Included: org.apache.maven.shared:maven-invoker:jar:3.0.1
+[DEBUG]   Included: org.scala-sbt:zinc_2.12:jar:1.3.1
+[DEBUG]   Included: org.scala-lang:scala-library:jar:2.12.8
+[DEBUG]   Included: org.scala-sbt:zinc-core_2.12:jar:1.3.1
+[DEBUG]   Included: org.scala-sbt:zinc-apiinfo_2.12:jar:1.3.1
+[DEBUG]   Included: org.scala-sbt:compiler-bridge_2.12:jar:1.3.1
+[DEBUG]   Included: org.scala-sbt:zinc-classpath_2.12:jar:1.3.1
+[DEBUG]   Included: org.scala-lang:scala-compiler:jar:2.12.8
+[DEBUG]   Included: org.scala-sbt:compiler-interface:jar:1.3.1
+[DEBUG]   Included: org.scala-sbt:util-interface:jar:1.3.0
+[DEBUG]   Included: com.trueaccord.scalapb:scalapb-runtime_2.12:jar:0.6.0
+[DEBUG]   Included: com.trueaccord.lenses:lenses_2.12:jar:0.4.12
+[DEBUG]   Included: com.lihaoyi:fastparse_2.12:jar:0.4.2
+[DEBUG]   Included: com.lihaoyi:fastparse-utils_2.12:jar:0.4.2
+[DEBUG]   Included: com.lihaoyi:sourcecode_2.12:jar:0.1.3
+[DEBUG]   Included: org.scala-sbt:io_2.12:jar:1.3.0
+[DEBUG]   Included: com.swoval:file-tree-views:jar:2.1.3
+[DEBUG]   Included: net.java.dev.jna:jna:jar:4.5.0
+[DEBUG]   Included: net.java.dev.jna:jna-platform:jar:4.5.0
+[DEBUG]   Included: org.scala-sbt:util-logging_2.12:jar:1.3.0
+[DEBUG]   Included: com.eed3si9n:sjson-new-core_2.12:jar:0.8.3
+[DEBUG]   Included: jline:jline:jar:2.14.6
+[DEBUG]   Included: org.apache.logging.log4j:log4j-api:jar:2.11.2
+[DEBUG]   Included: org.apache.logging.log4j:log4j-core:jar:2.11.2
+[DEBUG]   Included: com.lmax:disruptor:jar:3.4.2
+[DEBUG]   Included: com.eed3si9n:sjson-new-scalajson_2.12:jar:0.8.3
+[DEBUG]   Included: com.eed3si9n:shaded-scalajson_2.12:jar:1.0.0-M4
+[DEBUG]   Included: org.spire-math:jawn-parser_2.12:jar:0.10.4
+[DEBUG]   Included: org.scala-lang:scala-reflect:jar:2.12.8
+[DEBUG]   Included: org.scala-sbt:util-relation_2.12:jar:1.3.0
+[DEBUG]   Included: org.scala-sbt:zinc-persist_2.12:jar:1.3.1
+[DEBUG]   Included: org.scala-sbt:sbinary_2.12:jar:0.5.0
+[DEBUG]   Included: org.scala-lang.modules:scala-xml_2.12:jar:1.0.6
+[DEBUG]   Included: org.scala-sbt:zinc-compile-core_2.12:jar:1.3.1
+[DEBUG]   Included: org.scala-sbt:launcher-interface:jar:1.0.0
+[DEBUG]   Included: org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.1.2
+[DEBUG]   Included: org.scala-sbt:util-control_2.12:jar:1.3.0
+[DEBUG]   Included: org.scala-sbt:zinc-classfile_2.12:jar:1.3.1
+[DEBUG]   Included: com.google.protobuf:protobuf-java:jar:3.7.0
+[DEBUG]   Included: org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0
+[DEBUG] Configuring mojo net.alchim31.maven:scala-maven-plugin:4.2.4:compile from plugin realm ClassRealm[plugin>net.alchim31.maven:scala-maven-plugin:4.2.4, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'net.alchim31.maven:scala-maven-plugin:4.2.4:compile' with basic configurator -->
+[DEBUG]   (f) analysisCacheFile = /Users/timw/projects/indexity.io/empi/i2/target/analysis/compile
+[DEBUG]   (f) checkMultipleScalaVersions = true
+[DEBUG]   (f) classpath = scala_maven.Classpath@11653e3b
+[DEBUG]   (f) compileOrder = Mixed
+[DEBUG]   (f) displayCmd = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnMultipleScalaVersions = false
+[DEBUG]   (f) forceUseArgFile = false
+[DEBUG]   (f) fork = true
+[DEBUG]   (f) javacArgs = []
+[DEBUG]   (f) javacGenerateDebugSymbols = true
+[DEBUG]   (f) localRepo =       id: local
+      url: file:///Users/timw/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///Users/timw/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) notifyCompilation = true
+[DEBUG]   (f) outputDir = /Users/timw/projects/indexity.io/empi/i2/target/classes
+[DEBUG]   (f) pluginArtifacts = [net.alchim31.maven:scala-maven-plugin:maven-plugin:4.2.4:, org.apache.maven:maven-compat:jar:3.3.9:compile, org.apache.maven:maven-model-builder:jar:3.3.9:compile, org.apache.maven:maven-builder-support:jar:3.3.9:compile, com.google.guava:guava:jar:18.0:compile, org.apache.maven:maven-settings:jar:3.3.9:compile, org.apache.maven:maven-artifact:jar:3.3.9:compile, org.codehaus.plexus:plexus-interpolation:jar:1.21:compile, org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.2:compile, javax.enterprise:cdi-api:jar:1.0:compile, javax.annotation:jsr250-api:jar:1.0:compile, org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.2:compile, org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile, org.apache.maven.wagon:wagon-provider-api:jar:2.10:compile, org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile, org.apache.maven:maven-core:jar:3.3.9:compile, org.apache.maven:maven-settings-builder:jar:3.3.9:compile, org.apache.maven:maven-repository-metadata:jar:3.3.9:compile, org.apache.maven:maven-plugin-api:jar:3.3.9:compile, org.apache.maven:maven-aether-provider:jar:3.3.9:compile, org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile, org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:compile, org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile, org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile, com.google.inject:guice:jar:no_aop:4.0:compile, javax.inject:javax.inject:jar:1:compile, aopalliance:aopalliance:jar:1.0:compile, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.apache.commons:commons-lang3:jar:3.4:compile, org.apache.maven.shared:maven-dependency-tree:jar:3.0.1:compile, org.apache.commons:commons-exec:jar:1.3:compile, org.codehaus.plexus:plexus-utils:jar:3.3.0:compile, org.codehaus.plexus:plexus-archiver:jar:4.1.0:compile, org.codehaus.plexus:plexus-io:jar:3.1.1:compile, org.apache.commons:commons-compress:jar:1.18:compile, org.iq80.snappy:snappy:jar:0.4:compile, org.tukaani:xz:jar:1.8:runtime, org.codehaus.plexus:plexus-classworlds:jar:2.6.0:compile, org.apache.maven:maven-project:jar:2.2.1:compile, org.apache.maven:maven-profile:jar:2.2.1:compile, org.apache.maven:maven-artifact-manager:jar:2.2.1:compile, backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.apache.maven:maven-plugin-registry:jar:2.2.1:compile, org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, junit:junit:jar:3.8.1:compile, classworlds:classworlds:jar:1.1-alpha-2:compile, org.apache.maven:maven-archiver:jar:3.4.0:compile, org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile, commons-io:commons-io:jar:2.5:compile, org.apache.maven.doxia:doxia-sink-api:jar:1.9:compile, org.apache.maven.doxia:doxia-logging-api:jar:1.9:compile, org.apache.maven:maven-model:jar:3.3.9:compile, org.apache.maven.shared:maven-invoker:jar:3.0.1:compile, org.scala-sbt:zinc_2.12:jar:1.3.1:compile, org.scala-lang:scala-library:jar:2.12.8:compile, org.scala-sbt:zinc-core_2.12:jar:1.3.1:compile, org.scala-sbt:zinc-apiinfo_2.12:jar:1.3.1:compile, org.scala-sbt:compiler-bridge_2.12:jar:1.3.1:compile, org.scala-sbt:zinc-classpath_2.12:jar:1.3.1:compile, org.scala-lang:scala-compiler:jar:2.12.8:compile, org.scala-sbt:compiler-interface:jar:1.3.1:compile, org.scala-sbt:util-interface:jar:1.3.0:compile, com.trueaccord.scalapb:scalapb-runtime_2.12:jar:0.6.0:compile, com.trueaccord.lenses:lenses_2.12:jar:0.4.12:compile, com.lihaoyi:fastparse_2.12:jar:0.4.2:compile, com.lihaoyi:fastparse-utils_2.12:jar:0.4.2:compile, com.lihaoyi:sourcecode_2.12:jar:0.1.3:compile, org.scala-sbt:io_2.12:jar:1.3.0:compile, com.swoval:file-tree-views:jar:2.1.3:compile, net.java.dev.jna:jna:jar:4.5.0:compile, net.java.dev.jna:jna-platform:jar:4.5.0:compile, org.scala-sbt:util-logging_2.12:jar:1.3.0:compile, com.eed3si9n:sjson-new-core_2.12:jar:0.8.3:compile, jline:jline:jar:2.14.6:compile, org.apache.logging.log4j:log4j-api:jar:2.11.2:compile, org.apache.logging.log4j:log4j-core:jar:2.11.2:compile, com.lmax:disruptor:jar:3.4.2:compile, com.eed3si9n:sjson-new-scalajson_2.12:jar:0.8.3:compile, com.eed3si9n:shaded-scalajson_2.12:jar:1.0.0-M4:compile, org.spire-math:jawn-parser_2.12:jar:0.10.4:compile, org.scala-lang:scala-reflect:jar:2.12.8:compile, org.scala-sbt:util-relation_2.12:jar:1.3.0:compile, org.scala-sbt:zinc-persist_2.12:jar:1.3.1:compile, org.scala-sbt:sbinary_2.12:jar:0.5.0:compile, org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile, org.scala-sbt:zinc-compile-core_2.12:jar:1.3.1:compile, org.scala-sbt:launcher-interface:jar:1.0.0:compile, org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.1.2:compile, org.scala-sbt:util-control_2.12:jar:1.3.0:compile, org.scala-sbt:zinc-classfile_2.12:jar:1.3.1:compile, com.google.protobuf:protobuf-java:jar:3.7.0:compile, org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile]
+[DEBUG]   (f) project = MavenProject: incremental:incremental-parent:1.0-SNAPSHOT @ /Users/timw/projects/indexity.io/empi/i2/pom.xml
+[DEBUG]   (f) recompileMode = incremental
+[DEBUG]   (f) remoteRepos = [      id: gitlab-maven
+      url: https://gitlab.com/api/v4/groups/indexity/-/packages/maven
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) scalaClassName = scala.tools.nsc.Main
+[DEBUG]   (f) scalaCompatVersion = 2.12
+[DEBUG]   (f) scalaOrganization = org.scala-lang
+[DEBUG]   (f) scalaVersion = 2.12.10
+[DEBUG]   (f) sendJavaToScalac = true
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@bd2f5a9
+[DEBUG]   (f) sourceDir = /Users/timw/projects/indexity.io/empi/i2/src/main/scala/../scala
+[DEBUG]   (f) useCanonicalPath = true
+[DEBUG] -- end configuration --
+[DEBUG] Checking for multiple versions of scala
+[DEBUG] building maven31 dependency graph for incremental:incremental-parent:pom:1.0-SNAPSHOT with Maven31DependencyGraphBuilder
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=53518, ConflictMarker.markTime=51348, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=3062, ConflictIdSorter.topsortTime=5487, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=14125, ConflictResolver.conflictItemCount=0, DefaultDependencyCollector.collectTime=4222, DefaultDependencyCollector.transformTime=137454}
+[DEBUG] incremental:incremental-parent:pom:1.0-SNAPSHOT
+[DEBUG] includes = [**/*.java,**/*.scala,]
+[DEBUG] excludes = []
+[INFO] compile in 0.0 s
+[INFO] No sources to compile
+[INFO] 
+[INFO] ------------------< incremental:incremental-module1 >-------------------
+[INFO] Building Incremental :: Module1 1.0-SNAPSHOT                       [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       incremental:incremental-module1:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [gitlab-maven (https://gitlab.com/api/v4/groups/indexity/-/packages/maven, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>true</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          net.alchim31.maven:scala-maven-plugin:4.2.4:compile (scala-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addJavacArgs>${addJavacArgs}</addJavacArgs>
+  <addScalacArgs>${addScalacArgs}</addScalacArgs>
+  <analysisCacheFile default-value="${project.build.directory}/analysis/compile">${analysisCacheFile}</analysisCacheFile>
+  <checkMultipleScalaVersions default-value="true">${maven.scala.checkConsistency}</checkMultipleScalaVersions>
+  <classpath>${classpath}</classpath>
+  <compileOrder default-value="Mixed">${compileOrder}</compileOrder>
+  <displayCmd default-value="false">${displayCmd}</displayCmd>
+  <encoding default-value="UTF-8">${project.build.sourceEncoding}</encoding>
+  <failOnMultipleScalaVersions default-value="false"/>
+  <forceUseArgFile default-value="false"/>
+  <fork default-value="true"/>
+  <javacArgs>${javacArgs}</javacArgs>
+  <javacGenerateDebugSymbols default-value="true">${javacGenerateDebugSymbols}</javacGenerateDebugSymbols>
+  <localRepo>${localRepository}</localRepo>
+  <localRepository>${localRepository}</localRepository>
+  <notifyCompilation default-value="true">${notifyCompilation}</notifyCompilation>
+  <outputDir>${project.build.outputDirectory}</outputDir>
+  <pluginArtifacts default-value="${plugin.artifacts}"/>
+  <project>${project}</project>
+  <recompileMode default-value="incremental">incremental</recompileMode>
+  <remoteRepos>${project.remoteArtifactRepositories}</remoteRepos>
+  <scalaClassName default-value="scala.tools.nsc.Main">${maven.scala.className}</scalaClassName>
+  <scalaCompatVersion>${scala.compat.version}</scalaCompatVersion>
+  <scalaHome>${scala.home}</scalaHome>
+  <scalaOrganization default-value="org.scala-lang">${scala.organization}</scalaOrganization>
+  <scalaVersion>${scala.version}</scalaVersion>
+  <secondaryCacheDir>${secondaryCacheDir}</secondaryCacheDir>
+  <sendJavaToScalac default-value="true"/>
+  <session>${session}</session>
+  <source>${maven.compiler.source}</source>
+  <sourceDir default-value="${project.build.sourceDirectory}/../scala"/>
+  <target>${maven.compiler.target}</target>
+  <useCanonicalPath default-value="true">${maven.scala.useCanonicalPath}</useCanonicalPath>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=12583, ConflictMarker.markTime=11136, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=2217, ConflictIdSorter.topsortTime=4280, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=10340, ConflictResolver.conflictItemCount=0, DefaultDependencyCollector.collectTime=2606, DefaultDependencyCollector.transformTime=50632}
+[DEBUG] incremental:incremental-module1:jar:1.0-SNAPSHOT
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ incremental-module1 ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=251590, ConflictMarker.markTime=56598, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=149939, ConflictIdSorter.topsortTime=26241, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=662366, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=47236246, DefaultDependencyCollector.transformTime=1169934}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/timw/projects/indexity.io/empi/i2/module1/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: incremental:incremental-module1:1.0-SNAPSHOT @ /Users/timw/projects/indexity.io/empi/i2/module1/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/timw/projects/indexity.io/empi/i2/module1/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@bd2f5a9
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=AdoptOpenJDK, sun.java.launcher=SUN_STANDARD, env.XPC_SERVICE_NAME=0, env.PERL_MM_OPT=INSTALL_BASE=/Users/timw/perl5, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.SECURITYSESSIONID=186a9, env.LC_TERMINAL_VERSION=3.3.1, env.COLORFGBG=15;0, os.name=Mac OS X, sun.boot.class.path=/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/resources.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/rt.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/sunrsasign.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/jsse.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/jce.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/charsets.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/jfr.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/classes, env.TMPDIR=/tmp, env.PWD=/Users/timw/projects/indexity.io/empi/i2, user.country.format=NZ, env.PERL_MB_OPT=--install_base /Users/timw/perl5, env.LANG=en_NZ.UTF-8, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_222-b10, env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.YU7cEYV5sO/Render, user.name=timw, maven.build.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-05T08:00:29+13:00), env.USER=timw, env.SHELL=/usr/local/bin/bash, env.SBT_OPTS=-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M, env.__CF_USER_TEXT_ENCODING=0x1F5:0:15, env.JAVA_MAIN_CLASS_81900=org.codehaus.plexus.classworlds.launcher.Launcher, env.PATH=/Users/timw/perl5/bin:/Users/timw/.cargo/bin:/usr/local/bin:/usr/local/sbin:/Users/timw/.sdkman/candidates/scala/current/bin:/Users/timw/.sdkman/candidates/sbt/current/bin:/Users/timw/.sdkman/candidates/maven/current/bin:/Users/timw/.sdkman/candidates/java/current/bin:/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin:/usr/bin:/bin:/usr/sbin:/sbin, user.language=en, env.SBT_HOME=/Users/timw/.sdkman/candidates/sbt/current, sun.boot.library.path=/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib, classworlds.conf=/Users/timw/.sdkman/candidates/maven/current/bin/m2.conf, env.XPC_FLAGS=0x0, env.HOMEBREW_TEMP=/Users/timw/projects/brew, env.zip_output=/Users/timw/.sdkman/tmp/9sSz1aHjdrrDeRkNldLJV4EflNs7tL3M.zip, java.version=1.8.0_222, user.timezone=, sun.arch.data.model=64, env.sdkman_debug_mode=false, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.endorsed.dirs=/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, env.ITERM_SESSION_ID=w0t0p0:40F08AA3-D776-4515-9819-8EC98CFD444C, file.encoding.pkg=sun.io, env.SHLVL=0, env.PERL_LOCAL_LIB_ROOT=:/Users/timw/perl5, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/Users/timw/.sdkman/candidates/maven/current/conf, java.class.version=52.0, user.country=AU, java.home=/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre, java.vm.info=mixed mode, env.LOGNAME=timw, os.version=10.14.5, env.binary_input=/Users/timw/.sdkman/tmp/9sSz1aHjdrrDeRkNldLJV4EflNs7tL3M.bin, env.TERM_PROGRAM_VERSION=3.3.1, path.separator=:, java.vm.version=25.222-b10, env.JAVA_HOME=/Users/timw/.sdkman/candidates/java/current, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, env.TERM=xterm-256color, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, env.SDKMAN_PLATFORM=Darwin, env.SDKMAN_DIR=/Users/timw/.sdkman, user.home=/Users/timw, env.OLDPWD=/Users/timw/projects/indexity.io/empi/i2, java.specification.vendor=Oracle Corporation, env.TERM_PROGRAM=iTerm.app, library.jansi.path=/Users/timw/.sdkman/candidates/maven/current/lib/jansi-native, java.library.path=/Users/timw/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., env.LC_TERMINAL=iTerm2, java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= compile -X, java.vm.vendor=AdoptOpenJDK, gopherProxySet=false, maven.home=/Users/timw/.sdkman/candidates/maven/current, java.runtime.name=OpenJDK Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher compile -X, java.class.path=/Users/timw/.sdkman/candidates/maven/current/boot/plexus-classworlds-2.6.0.jar, env.TERM_SESSION_ID=w0t0p0:40F08AA3-D776-4515-9819-8EC98CFD444C, env.ANT_OPTS=-Xmx1024m -Xms256m -Djava.awt.headless=true, maven.version=3.6.1, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/Users/timw, env.ANT_HOME=/opt/apache-ant, java.io.tmpdir=/var/folders/cj/qc4x4ng96y7fnhh4yvjymcq40000gn/T/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.SDKMAN_CANDIDATES_DIR=/Users/timw/.sdkman/candidates, maven.multiModuleProjectDirectory=/Users/timw/projects/indexity.io/empi/i2, env.SDKMAN_CANDIDATES_API=https://api.sdkman.io/2, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.Gl2xgplIOK/Listeners, env.COMMAND_MODE=unix2003, os.arch=x86_64, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, env.sdkman_beta_channel=false, scala.compat.version=2.12, java.ext.dirs=/Users/timw/Library/Java/Extensions:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, env.PERL5LIB=/Users/timw/perl5/lib/perl5:, env.MAVEN_HOME=/Users/timw/.sdkman/candidates/maven/current, user.dir=/Users/timw/projects/indexity.io/empi/i2, env.SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS=/Users/timw/Library/WebKit/Databases, env.SDKMAN_VERSION=5.7.3+337, line.separator=
+, java.vm.name=OpenJDK 64-Bit Server VM, env.COLORTERM=truecolor, scala.version=2.12.10, env.EDITOR=sub -w, env.ITERM_PROFILE=Default, env.SCALA_HOME=/Users/timw/.sdkman/candidates/scala/current, file.encoding=UTF-8, java.specification.version=1.8, env.MAVEN_PROJECTBASEDIR=/Users/timw/projects/indexity.io/empi/i2}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /Users/timw/projects/indexity.io/empi/i2/module1/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /Users/timw/projects/indexity.io/empi/i2/module1/src/main/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ incremental-module1 ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=374118, ConflictMarker.markTime=116021, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=213213, ConflictIdSorter.topsortTime=51418, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=677299, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=83438613, DefaultDependencyCollector.transformTime=1452163}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/timw/projects/indexity.io/empi/i2/module1
+[DEBUG]   (f) buildDirectory = /Users/timw/projects/indexity.io/empi/i2/module1/target
+[DEBUG]   (f) classpathElements = [/Users/timw/projects/indexity.io/empi/i2/module1/target/classes]
+[DEBUG]   (f) compileSourceRoots = [/Users/timw/projects/indexity.io/empi/i2/module1/src/main/scala]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/timw/projects/indexity.io/empi/i2/module1/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/timw/projects/indexity.io/empi/i2/module1/target/classes
+[DEBUG]   (f) projectArtifact = incremental:incremental-module1:jar:1.0-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMain = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@bd2f5a9
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@bd2f5a9
+[DEBUG] -- end configuration --
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- scala-maven-plugin:4.2.4:compile (scala-compile) @ incremental-module1 ---
+[DEBUG] Configuring mojo net.alchim31.maven:scala-maven-plugin:4.2.4:compile from plugin realm ClassRealm[plugin>net.alchim31.maven:scala-maven-plugin:4.2.4, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'net.alchim31.maven:scala-maven-plugin:4.2.4:compile' with basic configurator -->
+[DEBUG]   (f) analysisCacheFile = /Users/timw/projects/indexity.io/empi/i2/module1/target/analysis/compile
+[DEBUG]   (f) checkMultipleScalaVersions = true
+[DEBUG]   (f) classpath = scala_maven.Classpath@2257fadf
+[DEBUG]   (f) compileOrder = Mixed
+[DEBUG]   (f) displayCmd = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnMultipleScalaVersions = false
+[DEBUG]   (f) forceUseArgFile = false
+[DEBUG]   (f) fork = true
+[DEBUG]   (f) javacArgs = []
+[DEBUG]   (f) javacGenerateDebugSymbols = true
+[DEBUG]   (f) localRepo =       id: local
+      url: file:///Users/timw/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///Users/timw/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) notifyCompilation = true
+[DEBUG]   (f) outputDir = /Users/timw/projects/indexity.io/empi/i2/module1/target/classes
+[DEBUG]   (f) pluginArtifacts = [net.alchim31.maven:scala-maven-plugin:maven-plugin:4.2.4:, org.apache.maven:maven-compat:jar:3.3.9:compile, org.apache.maven:maven-model-builder:jar:3.3.9:compile, org.apache.maven:maven-builder-support:jar:3.3.9:compile, com.google.guava:guava:jar:18.0:compile, org.apache.maven:maven-settings:jar:3.3.9:compile, org.apache.maven:maven-artifact:jar:3.3.9:compile, org.codehaus.plexus:plexus-interpolation:jar:1.21:compile, org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.2:compile, javax.enterprise:cdi-api:jar:1.0:compile, javax.annotation:jsr250-api:jar:1.0:compile, org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.2:compile, org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile, org.apache.maven.wagon:wagon-provider-api:jar:2.10:compile, org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile, org.apache.maven:maven-core:jar:3.3.9:compile, org.apache.maven:maven-settings-builder:jar:3.3.9:compile, org.apache.maven:maven-repository-metadata:jar:3.3.9:compile, org.apache.maven:maven-plugin-api:jar:3.3.9:compile, org.apache.maven:maven-aether-provider:jar:3.3.9:compile, org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile, org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:compile, org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile, org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile, com.google.inject:guice:jar:no_aop:4.0:compile, javax.inject:javax.inject:jar:1:compile, aopalliance:aopalliance:jar:1.0:compile, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.apache.commons:commons-lang3:jar:3.4:compile, org.apache.maven.shared:maven-dependency-tree:jar:3.0.1:compile, org.apache.commons:commons-exec:jar:1.3:compile, org.codehaus.plexus:plexus-utils:jar:3.3.0:compile, org.codehaus.plexus:plexus-archiver:jar:4.1.0:compile, org.codehaus.plexus:plexus-io:jar:3.1.1:compile, org.apache.commons:commons-compress:jar:1.18:compile, org.iq80.snappy:snappy:jar:0.4:compile, org.tukaani:xz:jar:1.8:runtime, org.codehaus.plexus:plexus-classworlds:jar:2.6.0:compile, org.apache.maven:maven-project:jar:2.2.1:compile, org.apache.maven:maven-profile:jar:2.2.1:compile, org.apache.maven:maven-artifact-manager:jar:2.2.1:compile, backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.apache.maven:maven-plugin-registry:jar:2.2.1:compile, org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, junit:junit:jar:3.8.1:compile, classworlds:classworlds:jar:1.1-alpha-2:compile, org.apache.maven:maven-archiver:jar:3.4.0:compile, org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile, commons-io:commons-io:jar:2.5:compile, org.apache.maven.doxia:doxia-sink-api:jar:1.9:compile, org.apache.maven.doxia:doxia-logging-api:jar:1.9:compile, org.apache.maven:maven-model:jar:3.3.9:compile, org.apache.maven.shared:maven-invoker:jar:3.0.1:compile, org.scala-sbt:zinc_2.12:jar:1.3.1:compile, org.scala-lang:scala-library:jar:2.12.8:compile, org.scala-sbt:zinc-core_2.12:jar:1.3.1:compile, org.scala-sbt:zinc-apiinfo_2.12:jar:1.3.1:compile, org.scala-sbt:compiler-bridge_2.12:jar:1.3.1:compile, org.scala-sbt:zinc-classpath_2.12:jar:1.3.1:compile, org.scala-lang:scala-compiler:jar:2.12.8:compile, org.scala-sbt:compiler-interface:jar:1.3.1:compile, org.scala-sbt:util-interface:jar:1.3.0:compile, com.trueaccord.scalapb:scalapb-runtime_2.12:jar:0.6.0:compile, com.trueaccord.lenses:lenses_2.12:jar:0.4.12:compile, com.lihaoyi:fastparse_2.12:jar:0.4.2:compile, com.lihaoyi:fastparse-utils_2.12:jar:0.4.2:compile, com.lihaoyi:sourcecode_2.12:jar:0.1.3:compile, org.scala-sbt:io_2.12:jar:1.3.0:compile, com.swoval:file-tree-views:jar:2.1.3:compile, net.java.dev.jna:jna:jar:4.5.0:compile, net.java.dev.jna:jna-platform:jar:4.5.0:compile, org.scala-sbt:util-logging_2.12:jar:1.3.0:compile, com.eed3si9n:sjson-new-core_2.12:jar:0.8.3:compile, jline:jline:jar:2.14.6:compile, org.apache.logging.log4j:log4j-api:jar:2.11.2:compile, org.apache.logging.log4j:log4j-core:jar:2.11.2:compile, com.lmax:disruptor:jar:3.4.2:compile, com.eed3si9n:sjson-new-scalajson_2.12:jar:0.8.3:compile, com.eed3si9n:shaded-scalajson_2.12:jar:1.0.0-M4:compile, org.spire-math:jawn-parser_2.12:jar:0.10.4:compile, org.scala-lang:scala-reflect:jar:2.12.8:compile, org.scala-sbt:util-relation_2.12:jar:1.3.0:compile, org.scala-sbt:zinc-persist_2.12:jar:1.3.1:compile, org.scala-sbt:sbinary_2.12:jar:0.5.0:compile, org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile, org.scala-sbt:zinc-compile-core_2.12:jar:1.3.1:compile, org.scala-sbt:launcher-interface:jar:1.0.0:compile, org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.1.2:compile, org.scala-sbt:util-control_2.12:jar:1.3.0:compile, org.scala-sbt:zinc-classfile_2.12:jar:1.3.1:compile, com.google.protobuf:protobuf-java:jar:3.7.0:compile, org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile]
+[DEBUG]   (f) project = MavenProject: incremental:incremental-module1:1.0-SNAPSHOT @ /Users/timw/projects/indexity.io/empi/i2/module1/pom.xml
+[DEBUG]   (f) recompileMode = incremental
+[DEBUG]   (f) remoteRepos = [      id: gitlab-maven
+      url: https://gitlab.com/api/v4/groups/indexity/-/packages/maven
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) scalaClassName = scala.tools.nsc.Main
+[DEBUG]   (f) scalaCompatVersion = 2.12
+[DEBUG]   (f) scalaOrganization = org.scala-lang
+[DEBUG]   (f) scalaVersion = 2.12.10
+[DEBUG]   (f) sendJavaToScalac = true
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@bd2f5a9
+[DEBUG]   (f) sourceDir = /Users/timw/projects/indexity.io/empi/i2/module1/src/main/scala/../scala
+[DEBUG]   (f) useCanonicalPath = true
+[DEBUG] -- end configuration --
+[DEBUG] Checking for multiple versions of scala
+[DEBUG] building maven31 dependency graph for incremental:incremental-module1:jar:1.0-SNAPSHOT with Maven31DependencyGraphBuilder
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=9233, ConflictMarker.markTime=25445, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=2399, ConflictIdSorter.topsortTime=6908, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=29221, ConflictResolver.conflictItemCount=0, DefaultDependencyCollector.collectTime=3565, DefaultDependencyCollector.transformTime=86351}
+[DEBUG] incremental:incremental-module1:jar:1.0-SNAPSHOT
+[DEBUG] /Users/timw/projects/indexity.io/empi/i2/module1/src/main/scala
+[DEBUG] includes = [**/*.java,**/*.scala,]
+[DEBUG] excludes = []
+[INFO] Using incremental compilation using Mixed compile order
+[INFO] Compiler bridge file: /Users/timw/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.12-1.3.1-bin_2.12.10__52.0-1.3.1_20191012T045515.jar
+[DEBUG] No changes
+[INFO] compile in 1.3 s
+[INFO] 
+[INFO] ------------------< incremental:incremental-module2 >-------------------
+[INFO] Building Incremental :: Module2 1.0-SNAPSHOT                       [3/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       incremental:incremental-module2:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [gitlab-maven (https://gitlab.com/api/v4/groups/indexity/-/packages/maven, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>true</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          net.alchim31.maven:scala-maven-plugin:4.2.4:compile (scala-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addJavacArgs>${addJavacArgs}</addJavacArgs>
+  <addScalacArgs>${addScalacArgs}</addScalacArgs>
+  <analysisCacheFile default-value="${project.build.directory}/analysis/compile">${analysisCacheFile}</analysisCacheFile>
+  <checkMultipleScalaVersions default-value="true">${maven.scala.checkConsistency}</checkMultipleScalaVersions>
+  <classpath>${classpath}</classpath>
+  <compileOrder default-value="Mixed">${compileOrder}</compileOrder>
+  <displayCmd default-value="false">${displayCmd}</displayCmd>
+  <encoding default-value="UTF-8">${project.build.sourceEncoding}</encoding>
+  <failOnMultipleScalaVersions default-value="false"/>
+  <forceUseArgFile default-value="false"/>
+  <fork default-value="true"/>
+  <javacArgs>${javacArgs}</javacArgs>
+  <javacGenerateDebugSymbols default-value="true">${javacGenerateDebugSymbols}</javacGenerateDebugSymbols>
+  <localRepo>${localRepository}</localRepo>
+  <localRepository>${localRepository}</localRepository>
+  <notifyCompilation default-value="true">${notifyCompilation}</notifyCompilation>
+  <outputDir>${project.build.outputDirectory}</outputDir>
+  <pluginArtifacts default-value="${plugin.artifacts}"/>
+  <project>${project}</project>
+  <recompileMode default-value="incremental">incremental</recompileMode>
+  <remoteRepos>${project.remoteArtifactRepositories}</remoteRepos>
+  <scalaClassName default-value="scala.tools.nsc.Main">${maven.scala.className}</scalaClassName>
+  <scalaCompatVersion>${scala.compat.version}</scalaCompatVersion>
+  <scalaHome>${scala.home}</scalaHome>
+  <scalaOrganization default-value="org.scala-lang">${scala.organization}</scalaOrganization>
+  <scalaVersion>${scala.version}</scalaVersion>
+  <secondaryCacheDir>${secondaryCacheDir}</secondaryCacheDir>
+  <sendJavaToScalac default-value="true"/>
+  <session>${session}</session>
+  <source>${maven.compiler.source}</source>
+  <sourceDir default-value="${project.build.sourceDirectory}/../scala"/>
+  <target>${maven.compiler.target}</target>
+  <useCanonicalPath default-value="true">${maven.scala.useCanonicalPath}</useCanonicalPath>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=18197, ConflictMarker.markTime=14050, ConflictMarker.nodeCount=2, ConflictIdSorter.graphTime=3140, ConflictIdSorter.topsortTime=8093, ConflictIdSorter.conflictIdCount=1, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=124864, ConflictResolver.conflictItemCount=1, DefaultDependencyCollector.collectTime=822588, DefaultDependencyCollector.transformTime=179995}
+[DEBUG] incremental:incremental-module2:jar:1.0-SNAPSHOT
+[DEBUG]    incremental:incremental-module1:jar:1.0-SNAPSHOT:compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ incremental-module2 ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/timw/projects/indexity.io/empi/i2/module2/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: incremental:incremental-module2:1.0-SNAPSHOT @ /Users/timw/projects/indexity.io/empi/i2/module2/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/timw/projects/indexity.io/empi/i2/module2/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@bd2f5a9
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=AdoptOpenJDK, sun.java.launcher=SUN_STANDARD, env.XPC_SERVICE_NAME=0, env.PERL_MM_OPT=INSTALL_BASE=/Users/timw/perl5, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.SECURITYSESSIONID=186a9, env.LC_TERMINAL_VERSION=3.3.1, env.COLORFGBG=15;0, os.name=Mac OS X, sun.boot.class.path=/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/resources.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/rt.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/sunrsasign.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/jsse.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/jce.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/charsets.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/jfr.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/classes, env.TMPDIR=/tmp, env.PWD=/Users/timw/projects/indexity.io/empi/i2, user.country.format=NZ, env.PERL_MB_OPT=--install_base /Users/timw/perl5, env.LANG=en_NZ.UTF-8, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_222-b10, env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.YU7cEYV5sO/Render, user.name=timw, maven.build.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-05T08:00:29+13:00), env.USER=timw, env.SHELL=/usr/local/bin/bash, env.SBT_OPTS=-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M, env.__CF_USER_TEXT_ENCODING=0x1F5:0:15, env.JAVA_MAIN_CLASS_81900=org.codehaus.plexus.classworlds.launcher.Launcher, env.PATH=/Users/timw/perl5/bin:/Users/timw/.cargo/bin:/usr/local/bin:/usr/local/sbin:/Users/timw/.sdkman/candidates/scala/current/bin:/Users/timw/.sdkman/candidates/sbt/current/bin:/Users/timw/.sdkman/candidates/maven/current/bin:/Users/timw/.sdkman/candidates/java/current/bin:/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin:/usr/bin:/bin:/usr/sbin:/sbin, user.language=en, env.SBT_HOME=/Users/timw/.sdkman/candidates/sbt/current, sun.boot.library.path=/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib, classworlds.conf=/Users/timw/.sdkman/candidates/maven/current/bin/m2.conf, env.XPC_FLAGS=0x0, env.HOMEBREW_TEMP=/Users/timw/projects/brew, env.zip_output=/Users/timw/.sdkman/tmp/9sSz1aHjdrrDeRkNldLJV4EflNs7tL3M.zip, java.version=1.8.0_222, user.timezone=, sun.arch.data.model=64, env.sdkman_debug_mode=false, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.endorsed.dirs=/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, env.ITERM_SESSION_ID=w0t0p0:40F08AA3-D776-4515-9819-8EC98CFD444C, file.encoding.pkg=sun.io, env.SHLVL=0, env.PERL_LOCAL_LIB_ROOT=:/Users/timw/perl5, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/Users/timw/.sdkman/candidates/maven/current/conf, java.class.version=52.0, user.country=AU, java.home=/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre, java.vm.info=mixed mode, env.LOGNAME=timw, os.version=10.14.5, env.binary_input=/Users/timw/.sdkman/tmp/9sSz1aHjdrrDeRkNldLJV4EflNs7tL3M.bin, env.TERM_PROGRAM_VERSION=3.3.1, path.separator=:, java.vm.version=25.222-b10, env.JAVA_HOME=/Users/timw/.sdkman/candidates/java/current, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, env.TERM=xterm-256color, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, env.SDKMAN_PLATFORM=Darwin, env.SDKMAN_DIR=/Users/timw/.sdkman, user.home=/Users/timw, env.OLDPWD=/Users/timw/projects/indexity.io/empi/i2, java.specification.vendor=Oracle Corporation, env.TERM_PROGRAM=iTerm.app, library.jansi.path=/Users/timw/.sdkman/candidates/maven/current/lib/jansi-native, java.library.path=/Users/timw/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., env.LC_TERMINAL=iTerm2, java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= compile -X, java.vm.vendor=AdoptOpenJDK, gopherProxySet=false, maven.home=/Users/timw/.sdkman/candidates/maven/current, java.runtime.name=OpenJDK Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher compile -X, java.class.path=/Users/timw/.sdkman/candidates/maven/current/boot/plexus-classworlds-2.6.0.jar, env.TERM_SESSION_ID=w0t0p0:40F08AA3-D776-4515-9819-8EC98CFD444C, env.ANT_OPTS=-Xmx1024m -Xms256m -Djava.awt.headless=true, maven.version=3.6.1, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/Users/timw, env.ANT_HOME=/opt/apache-ant, java.io.tmpdir=/var/folders/cj/qc4x4ng96y7fnhh4yvjymcq40000gn/T/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.SDKMAN_CANDIDATES_DIR=/Users/timw/.sdkman/candidates, maven.multiModuleProjectDirectory=/Users/timw/projects/indexity.io/empi/i2, env.SDKMAN_CANDIDATES_API=https://api.sdkman.io/2, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.Gl2xgplIOK/Listeners, env.COMMAND_MODE=unix2003, os.arch=x86_64, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, env.sdkman_beta_channel=false, scala.compat.version=2.12, java.ext.dirs=/Users/timw/Library/Java/Extensions:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, env.PERL5LIB=/Users/timw/perl5/lib/perl5:, env.MAVEN_HOME=/Users/timw/.sdkman/candidates/maven/current, user.dir=/Users/timw/projects/indexity.io/empi/i2, env.SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS=/Users/timw/Library/WebKit/Databases, env.SDKMAN_VERSION=5.7.3+337, line.separator=
+, java.vm.name=OpenJDK 64-Bit Server VM, env.COLORTERM=truecolor, scala.version=2.12.10, env.EDITOR=sub -w, env.ITERM_PROFILE=Default, env.SCALA_HOME=/Users/timw/.sdkman/candidates/scala/current, file.encoding=UTF-8, java.specification.version=1.8, env.MAVEN_PROJECTBASEDIR=/Users/timw/projects/indexity.io/empi/i2}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /Users/timw/projects/indexity.io/empi/i2/module2/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /Users/timw/projects/indexity.io/empi/i2/module2/src/main/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ incremental-module2 ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/timw/projects/indexity.io/empi/i2/module2
+[DEBUG]   (f) buildDirectory = /Users/timw/projects/indexity.io/empi/i2/module2/target
+[DEBUG]   (f) classpathElements = [/Users/timw/projects/indexity.io/empi/i2/module2/target/classes, /Users/timw/projects/indexity.io/empi/i2/module1/target/classes]
+[DEBUG]   (f) compileSourceRoots = [/Users/timw/projects/indexity.io/empi/i2/module2/src/main/scala]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/timw/projects/indexity.io/empi/i2/module2/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/timw/projects/indexity.io/empi/i2/module2/target/classes
+[DEBUG]   (f) projectArtifact = incremental:incremental-module2:jar:1.0-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMain = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@bd2f5a9
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@bd2f5a9
+[DEBUG] -- end configuration --
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- scala-maven-plugin:4.2.4:compile (scala-compile) @ incremental-module2 ---
+[DEBUG] Configuring mojo net.alchim31.maven:scala-maven-plugin:4.2.4:compile from plugin realm ClassRealm[plugin>net.alchim31.maven:scala-maven-plugin:4.2.4, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'net.alchim31.maven:scala-maven-plugin:4.2.4:compile' with basic configurator -->
+[DEBUG]   (f) analysisCacheFile = /Users/timw/projects/indexity.io/empi/i2/module2/target/analysis/compile
+[DEBUG]   (f) checkMultipleScalaVersions = true
+[DEBUG]   (f) classpath = scala_maven.Classpath@6f6c6077
+[DEBUG]   (f) compileOrder = Mixed
+[DEBUG]   (f) displayCmd = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnMultipleScalaVersions = false
+[DEBUG]   (f) forceUseArgFile = false
+[DEBUG]   (f) fork = true
+[DEBUG]   (f) javacArgs = []
+[DEBUG]   (f) javacGenerateDebugSymbols = true
+[DEBUG]   (f) localRepo =       id: local
+      url: file:///Users/timw/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///Users/timw/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) notifyCompilation = true
+[DEBUG]   (f) outputDir = /Users/timw/projects/indexity.io/empi/i2/module2/target/classes
+[DEBUG]   (f) pluginArtifacts = [net.alchim31.maven:scala-maven-plugin:maven-plugin:4.2.4:, org.apache.maven:maven-compat:jar:3.3.9:compile, org.apache.maven:maven-model-builder:jar:3.3.9:compile, org.apache.maven:maven-builder-support:jar:3.3.9:compile, com.google.guava:guava:jar:18.0:compile, org.apache.maven:maven-settings:jar:3.3.9:compile, org.apache.maven:maven-artifact:jar:3.3.9:compile, org.codehaus.plexus:plexus-interpolation:jar:1.21:compile, org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.2:compile, javax.enterprise:cdi-api:jar:1.0:compile, javax.annotation:jsr250-api:jar:1.0:compile, org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.2:compile, org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile, org.apache.maven.wagon:wagon-provider-api:jar:2.10:compile, org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile, org.apache.maven:maven-core:jar:3.3.9:compile, org.apache.maven:maven-settings-builder:jar:3.3.9:compile, org.apache.maven:maven-repository-metadata:jar:3.3.9:compile, org.apache.maven:maven-plugin-api:jar:3.3.9:compile, org.apache.maven:maven-aether-provider:jar:3.3.9:compile, org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile, org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:compile, org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile, org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile, com.google.inject:guice:jar:no_aop:4.0:compile, javax.inject:javax.inject:jar:1:compile, aopalliance:aopalliance:jar:1.0:compile, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.apache.commons:commons-lang3:jar:3.4:compile, org.apache.maven.shared:maven-dependency-tree:jar:3.0.1:compile, org.apache.commons:commons-exec:jar:1.3:compile, org.codehaus.plexus:plexus-utils:jar:3.3.0:compile, org.codehaus.plexus:plexus-archiver:jar:4.1.0:compile, org.codehaus.plexus:plexus-io:jar:3.1.1:compile, org.apache.commons:commons-compress:jar:1.18:compile, org.iq80.snappy:snappy:jar:0.4:compile, org.tukaani:xz:jar:1.8:runtime, org.codehaus.plexus:plexus-classworlds:jar:2.6.0:compile, org.apache.maven:maven-project:jar:2.2.1:compile, org.apache.maven:maven-profile:jar:2.2.1:compile, org.apache.maven:maven-artifact-manager:jar:2.2.1:compile, backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.apache.maven:maven-plugin-registry:jar:2.2.1:compile, org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, junit:junit:jar:3.8.1:compile, classworlds:classworlds:jar:1.1-alpha-2:compile, org.apache.maven:maven-archiver:jar:3.4.0:compile, org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile, commons-io:commons-io:jar:2.5:compile, org.apache.maven.doxia:doxia-sink-api:jar:1.9:compile, org.apache.maven.doxia:doxia-logging-api:jar:1.9:compile, org.apache.maven:maven-model:jar:3.3.9:compile, org.apache.maven.shared:maven-invoker:jar:3.0.1:compile, org.scala-sbt:zinc_2.12:jar:1.3.1:compile, org.scala-lang:scala-library:jar:2.12.8:compile, org.scala-sbt:zinc-core_2.12:jar:1.3.1:compile, org.scala-sbt:zinc-apiinfo_2.12:jar:1.3.1:compile, org.scala-sbt:compiler-bridge_2.12:jar:1.3.1:compile, org.scala-sbt:zinc-classpath_2.12:jar:1.3.1:compile, org.scala-lang:scala-compiler:jar:2.12.8:compile, org.scala-sbt:compiler-interface:jar:1.3.1:compile, org.scala-sbt:util-interface:jar:1.3.0:compile, com.trueaccord.scalapb:scalapb-runtime_2.12:jar:0.6.0:compile, com.trueaccord.lenses:lenses_2.12:jar:0.4.12:compile, com.lihaoyi:fastparse_2.12:jar:0.4.2:compile, com.lihaoyi:fastparse-utils_2.12:jar:0.4.2:compile, com.lihaoyi:sourcecode_2.12:jar:0.1.3:compile, org.scala-sbt:io_2.12:jar:1.3.0:compile, com.swoval:file-tree-views:jar:2.1.3:compile, net.java.dev.jna:jna:jar:4.5.0:compile, net.java.dev.jna:jna-platform:jar:4.5.0:compile, org.scala-sbt:util-logging_2.12:jar:1.3.0:compile, com.eed3si9n:sjson-new-core_2.12:jar:0.8.3:compile, jline:jline:jar:2.14.6:compile, org.apache.logging.log4j:log4j-api:jar:2.11.2:compile, org.apache.logging.log4j:log4j-core:jar:2.11.2:compile, com.lmax:disruptor:jar:3.4.2:compile, com.eed3si9n:sjson-new-scalajson_2.12:jar:0.8.3:compile, com.eed3si9n:shaded-scalajson_2.12:jar:1.0.0-M4:compile, org.spire-math:jawn-parser_2.12:jar:0.10.4:compile, org.scala-lang:scala-reflect:jar:2.12.8:compile, org.scala-sbt:util-relation_2.12:jar:1.3.0:compile, org.scala-sbt:zinc-persist_2.12:jar:1.3.1:compile, org.scala-sbt:sbinary_2.12:jar:0.5.0:compile, org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile, org.scala-sbt:zinc-compile-core_2.12:jar:1.3.1:compile, org.scala-sbt:launcher-interface:jar:1.0.0:compile, org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.1.2:compile, org.scala-sbt:util-control_2.12:jar:1.3.0:compile, org.scala-sbt:zinc-classfile_2.12:jar:1.3.1:compile, com.google.protobuf:protobuf-java:jar:3.7.0:compile, org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile]
+[DEBUG]   (f) project = MavenProject: incremental:incremental-module2:1.0-SNAPSHOT @ /Users/timw/projects/indexity.io/empi/i2/module2/pom.xml
+[DEBUG]   (f) recompileMode = incremental
+[DEBUG]   (f) remoteRepos = [      id: gitlab-maven
+      url: https://gitlab.com/api/v4/groups/indexity/-/packages/maven
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) scalaClassName = scala.tools.nsc.Main
+[DEBUG]   (f) scalaCompatVersion = 2.12
+[DEBUG]   (f) scalaOrganization = org.scala-lang
+[DEBUG]   (f) scalaVersion = 2.12.10
+[DEBUG]   (f) sendJavaToScalac = true
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@bd2f5a9
+[DEBUG]   (f) sourceDir = /Users/timw/projects/indexity.io/empi/i2/module2/src/main/scala/../scala
+[DEBUG]   (f) useCanonicalPath = true
+[DEBUG] -- end configuration --
+[DEBUG] Checking for multiple versions of scala
+[DEBUG] building maven31 dependency graph for incremental:incremental-module2:jar:1.0-SNAPSHOT with Maven31DependencyGraphBuilder
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=7202, ConflictMarker.markTime=11666, ConflictMarker.nodeCount=2, ConflictIdSorter.graphTime=2246, ConflictIdSorter.topsortTime=6038, ConflictIdSorter.conflictIdCount=1, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=33982, ConflictResolver.conflictItemCount=1, DefaultDependencyCollector.collectTime=104966, DefaultDependencyCollector.transformTime=69232}
+[DEBUG] incremental:incremental-module2:jar:1.0-SNAPSHOT
+[DEBUG]    incremental:incremental-module1:jar:1.0-SNAPSHOT:compile
+[DEBUG] /Users/timw/projects/indexity.io/empi/i2/module2/src/main/scala
+[DEBUG] includes = [**/*.java,**/*.scala,]
+[DEBUG] excludes = []
+[INFO] Using incremental compilation using Mixed compile order
+[INFO] Compiler bridge file: /Users/timw/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.12-1.3.1-bin_2.12.10__52.0-1.3.1_20191012T045515.jar
+[DEBUG] Invalidating '/Users/timw/projects/indexity.io/empi/i2/module1/target/classes/package1/Producer.class' because package1.Producer$Domain is now provided by /Users/timw/projects/indexity.io/empi/i2/module1/target/classes/package1/Producer$Domain.class
+[DEBUG] 
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Invalidated products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set(/Users/timw/projects/indexity.io/empi/i2/module1/target/classes/package1/Producer.class)
+Initial directly invalidated classes: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set(/Users/timw/projects/indexity.io/empi/i2/module2/src/main/scala/package2/Consumer.scala)
+	external source: Set()
+[DEBUG] All sources are invalidated.
+[DEBUG] Initial set of included nodes: 
+[DEBUG] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[INFO] Compiling 1 Scala source to /Users/timw/projects/indexity.io/empi/i2/module2/target/classes ...
+[DEBUG] Returning already retrieved and compiled bridge: /Users/timw/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.12-1.3.1-bin_2.12.10__52.0-1.3.1_20191012T045515.jar.
+[DEBUG] Returning already retrieved and compiled bridge: /Users/timw/.sbt/1.0/zinc/org.scala-sbt/org.scala-sbt-compiler-bridge_2.12-1.3.1-bin_2.12.10__52.0-1.3.1_20191012T045515.jar.
+[DEBUG] [zinc] Running cached compiler 3a11c0eb for Scala compiler version 2.12.10
+[DEBUG] [zinc] The Scala compiler is invoked with:
+	-bootclasspath
+	/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/resources.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/rt.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/sunrsasign.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/jsse.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/jce.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/charsets.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/lib/jfr.jar:/Users/timw/.sdkman/candidates/java/8.0.222.hs-adpt/jre/classes
+	-classpath
+	/Users/timw/projects/indexity.io/empi/i2/module2/target/classes:/Users/timw/projects/indexity.io/empi/i2/module1/target/classes:/Users/timw/projects/indexity.io/empi/i2/module1/target/classes:/Users/timw/.m2/repository/org/scala-lang/scala-compiler/2.12.10/scala-compiler-2.12.10.jar:/Users/timw/.m2/repository/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10.jar:/Users/timw/.m2/repository/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar:/Users/timw/.m2/repository/org/scala-lang/scala-library/2.12.0/scala-library-2.12.0.jar:/Users/timw/.m2/repository/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10.jar
+[DEBUG] Scala compilation took 2.478743788 s
+[INFO] Done compiling.
+[INFO] compile in 2.7 s
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Incremental :: Parent 1.0-SNAPSHOT:
+[INFO] 
+[INFO] Incremental :: Parent .............................. SUCCESS [  0.926 s]
+[INFO] Incremental :: Module1 ............................. SUCCESS [  1.656 s]
+[INFO] Incremental :: Module2 ............................. SUCCESS [  2.747 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.476 s
+[INFO] Finished at: 2019-10-23T21:42:18+13:00
+[INFO] ------------------------------------------------------------------------
